@@ -1387,7 +1387,7 @@ ao_device *ao_open_file (int driver_id, const char *filename, int overwrite,
 		}
 
 
-		file = fopen(filename, "w");
+		file = fopen(filename, "wb");
 	}
 
 
